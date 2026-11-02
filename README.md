@@ -1,3 +1,22 @@
+## Problem Statement
+
+### The Last 100 Metres: One Street, Four Realities
+
+A street can feel very different depending on who is using it. A broken footpath slab may be a small inconvenience for one person, but a complete roadblock for someone using a wheelchair. Older adults, people with visual impairments, and parents pushing strollers can face different barriers on the same route.
+
+Municipal teams receive reports about problems such as broken footpaths, missing curb ramps, blocked paths, and open drains. But a list of complaints alone does not show which barriers prevent people from getting through, who is most affected, or which repair would help the most people first.
+
+### The Challenge
+
+How might we make pedestrian accessibility barriers visible and help municipal officers decide what to fix first, based on how each issue affects different people?
+
+### Our Goal
+
+Last 100 m is a prototype for reporting and reviewing street accessibility issues. It lets people explore reported barriers and see how priorities change for wheelchair users, older adults, people with visual impairments, and parents with strollers. It also explains why an issue receives its priority score, so the ranking is easier to understand.
+
+### Prototype Scope
+
+The project is designed to demonstrate the idea in a small study area, as described in the hackathon brief. It is a prototype, not a live municipal service. Demo issues and map data may be illustrative or incomplete; they should be checked on site before being treated as verified conditions.
 # Last 100 m — One Street, Four Realities
 
 Standalone Vite project converted from the supplied single-file HTML prototype. Satellite imagery uses Esri World Imagery, and the browser asks for location access so it can center the map on you. If you deny access, the app shows a labeled Bengaluru demo area instead. The dashboard works without an AI key; the optional Access Copilot needs an OpenRouter API key on the local server.
